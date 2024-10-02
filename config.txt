@@ -1,3 +1,33 @@
-#sonic-cli ( klish, exec mode, show commands available )
-#configure terminal ( for configurations )
+#sonic-cli // klish, exec mode, show commands available
+#configure terminal // for configurations
 
+#show interface ? // For available commands
+#<command> | except, find, grep, no-more, save
+
+#show running-configuration
+
+/etc/sonic/config_db.json // Saved config
+/etc/sonic/sonic-config.tar // All relevant config files
+
+BASIC CONFIG
+
+#show interface status
+
+#interface Eth1
+###ip address 10.10.10.1/24
+###no shutdown
+
+#interface range et 0-3,5,7
+###no shutdown
+
+#interface range create vlan 2-100
+###
+
+#interface portchannel <n> mode on/fast_rate/active
+
+#interface range et 1-2
+###channel-group <n>
+
+# show portchannel summay
+
+VLAN CONFIG
