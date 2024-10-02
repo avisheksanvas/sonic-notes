@@ -1,0 +1,3 @@
+#sonic-cli ( klish, exec mode, show commands available )
+#configure terminal ( for configurations )
+
